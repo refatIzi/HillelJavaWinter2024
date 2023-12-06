@@ -26,7 +26,6 @@ public class DepositCalculate {
         // Розраховуємо нараховані відсотки
         double profit = manyCalculation - many;
 
-        // Выводим результаты
         System.out.println("Сума грошей, що накопичилася через " + years + " років: " + manyCalculation);
         System.out.println("Нараховані відсотки: " + profit);
     }
