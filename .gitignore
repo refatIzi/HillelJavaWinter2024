@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 /out/
 /classwork/classwork.iml
+/.idea/
+/HillelJavaWinter2024.iml
