@@ -12,7 +12,7 @@ public class Main {
         new MathOperations().PrintUnpairedMethTwo();
         new MathOperations().PrintUnpairedMethThree();
 
-        System.out.println("Введіть число n: ");
+        System.out.println("Обчислення факторіалу \nВведіть число n: ");
         int n = scanner.nextInt();
         System.out.println("Factorial method one: " + new MathOperations().factorialOne(n));
         System.out.println("Factorial method two: " + new MathOperations().factorialTwo(n));
@@ -24,16 +24,17 @@ public class Main {
         System.out.println("Введіть число a: ");
         int a = scanner.nextInt();
         System.out.println("x^a =: " + new MathOperations().degree(x,a));
-        System.out.println("Вивести 10 перших чисел послідовності 0, -5,-10,-15.");
+        System.out.println("Виведення 10 перших чисел послідовності 0, -5,-10,-15.");
         new MathOperations().printTenNumInSequence();
 
 
         System.out.println("Таблиця множення. Виведіть число яку треба вивести на екран: ");
         int b = scanner.nextInt();
         new MathOperations().multiplication(b);
-
+        System.out.println("Створення масиву, що містить 10 перших непарних чисел.");
         new MathOperations().printArrayFirstTenNumbers();
 
+        System.out.println("Дії з масивом з пунку 9-11, знайти елемент масиву і вивести на консоль");
         System.out.println("Введіть розмір масиву: ");
 
         int s = scanner.nextInt();
