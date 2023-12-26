@@ -14,8 +14,8 @@ public class Start {
         cat1.swim( 10);
 
 
-        System.out.println("Number of dogs created:" + Dog.count);
-        System.out.println("Number of cats created:" + Cat.count);
-        System.out.println("Number of animals created:" + getTotalCount());
+        System.out.println("Number of dogs - " + Dog.count);
+        System.out.println("Number of cats - " + Cat.count);
+        System.out.println("Number of animals - " + getTotalCount());
     }
 }
