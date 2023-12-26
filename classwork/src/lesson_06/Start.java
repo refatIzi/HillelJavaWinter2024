@@ -10,8 +10,9 @@ public class Start {
         dog1.swim(10);
 
         Cat cat1 = new Cat("Murka");
-        cat1.swim( 10);
         cat1.run(270);
+        cat1.swim( 10);
+
 
         System.out.println("Number of dogs created:" + Dog.count);
         System.out.println("Number of cats created:" + Cat.count);
