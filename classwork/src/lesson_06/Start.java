@@ -6,12 +6,12 @@ public class Start {
     public static void main(String[] args) {
 
         Dog dog1 = new Dog("Bobik");
-        dog1.run(345);
+        dog1.run(455);
         dog1.swim(10);
 
         Cat cat1 = new Cat("Murka");
         cat1.swim( 10);
-        cat1.run(120);
+        cat1.run(270);
 
         System.out.println("Number of dogs created:" + Dog.count);
         System.out.println("Number of cats created:" + Cat.count);
