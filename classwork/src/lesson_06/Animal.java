@@ -9,7 +9,7 @@ public abstract class Animal {
         return totalCount;
     }
 
-    public abstract void run(int obstacleLength);
+    public abstract void run(int length);
 
-    public abstract void swim(int obstacleLength);
+    public abstract void swim(int length);
 }

@@ -9,19 +9,19 @@ public class Dog extends Animal {
         count++;
     }
     @Override
-    public void run(int obstacleLength) {
-        if (obstacleLength <= 500) {
-            System.out.println(this.name + " run " + obstacleLength + " m");
+    public void run(int length) {
+        if (length <= 500) {
+            System.out.println(this.name + " run " + length + " m");
         } else {
-            System.out.println(this.name + " can run up to 500 meters");
+            System.out.println(this.name + " can run up to 500 m");
         }
     }
     @Override
-    public void swim(int obstacleLength) {
-        if (obstacleLength <= 10) {
-            System.out.println(this.name + " swim " + obstacleLength + " m");
+    public void swim(int length) {
+        if (length <= 10) {
+            System.out.println(this.name + " swim " + length + " m");
         } else {
-            System.out.println(this.name + " can swim up to 10 meters");
+            System.out.println(this.name + " can swim up to 10 m");
         }
     }
 }
