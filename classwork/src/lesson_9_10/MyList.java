@@ -1,6 +1,4 @@
-package lesson_9;
-
-import java.util.Collection;
+package lesson_9_10;
 
 public interface MyList {
     boolean add(String o);
