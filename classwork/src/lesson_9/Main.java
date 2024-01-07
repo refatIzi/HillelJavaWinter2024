@@ -1,6 +1,6 @@
 package lesson_9;
 
-public class ікк {
+public class Main {
 
     //static String [] data=new String[4];
     private static String[] arrays = new String[4];
