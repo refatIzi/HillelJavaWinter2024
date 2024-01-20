@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         PhoneBook phoneBook = new PhoneBook();
-
         Record rifat = new Record("RIFAT", "0678585858");
         Record stepan = new Record("STEPAN", "0683336798");
         Record yorik = new Record("YORIK", "0983585893");
