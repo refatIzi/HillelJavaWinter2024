@@ -17,7 +17,7 @@ public class Main {
     public static void checkArr(String[][] array){
         try {
             int result = ArrayValueCalculator.doCalc(array);
-            System.out.println("Результат: " + result);
+            System.out.println("Результат підсумку вмисту массива: " + result);
         } catch (ArraySizeException e) {
             System.out.println(e.getMessage());
         } catch (ArrayDataException e) {
