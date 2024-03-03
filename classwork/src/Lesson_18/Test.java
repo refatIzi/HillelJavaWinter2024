@@ -24,6 +24,7 @@ public class Test {
 
     }
 
+
     @org.junit.Test
     public void test2() {
         List<Product> productList = Arrays.asList(
