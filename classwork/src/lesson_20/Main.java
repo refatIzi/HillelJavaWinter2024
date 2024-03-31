@@ -10,8 +10,8 @@ public class Main {
             FileLoggerConfiguration configuration = FileLoggerConfigurationLoader.load("config.txt");
             FileLogger logger = new FileLogger(configuration);
 
-            logger.info("This is an info message.");
-            logger.debug("This is a debug message.");
+            logger.info("Це інформаційне повідомлення.");
+            logger.debug("Це повідомлення про налагодження.");
 
             logger.close();
         } catch (IOException e) {
